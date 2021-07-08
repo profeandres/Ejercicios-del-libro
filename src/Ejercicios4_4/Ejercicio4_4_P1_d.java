@@ -2,7 +2,7 @@ package Ejercicios4_4;
 /*
 Construir un programa que muestre en pantalla el coseno de 57
 */
-public class Ejericio4_4_P1_d {
+public class Ejercicio4_4_P1_d {
     public static void main(String[] args) {
         // Hallar el coseno de 57°
         double grados= Math.cos(57);
