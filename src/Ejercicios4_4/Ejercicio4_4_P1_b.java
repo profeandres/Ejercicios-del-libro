@@ -2,7 +2,6 @@ package Ejercicios4_4;
 /*
 Construir un programa que convierta 38 grados a su equivalente en
 radianes
-
 */
 public class Ejercicio4_4_P1_b {
     public static void main(String[] args) {
