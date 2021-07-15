@@ -13,13 +13,12 @@ public class Ejercicio8_3_2_k {
         int i=0,vowels=0;
         do{
             char vowel=cad.charAt(i);
+            System.out.println(vowel);
             if (vowel=='a' | vowel=='e'|vowel=='i'|vowel=='o'|vowel=='u'){
                 vowels++;
             }
+            i++;
         }while(i<cad.length());
-
         System.out.println("There are "+vowels+" Syllables");
-
-
     }
 }
