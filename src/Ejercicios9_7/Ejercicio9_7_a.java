@@ -13,12 +13,13 @@ public class Ejercicio9_7_a {
         for (int i=0;i<10;i++){
             Vector1[i]=op.nextInt();
         }
-        int numeromenor=Vector1[0];
+        int numeromenor=Vector1[0],posición=0;
         for (int i=1;i<10;i++){
             if (numeromenor>Vector1[i]){
                 numeromenor=Vector1[i];
+                posición=i;
             }
         }
-        System.out.println("En el array"+Arrays.toString(Vector1)+"\nel número menor es: "+numeromenor);
+        System.out.println("En el array"+Arrays.toString(Vector1)+"\nel número menor esta en la posición:"+posición);
     }
 }
