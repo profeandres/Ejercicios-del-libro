@@ -10,14 +10,19 @@ public class Ejercicio9_7_a {
     public static void main(String[] args) {
         op=new Scanner(System.in);
         int Vector1[]= new int[10];
-        for (int i=0;i<10;i++){
+        System.out.println("Ingrese 10 números enteros, uno por uno:");
+        for (int i=0;i<10;i++)
+        {
+            System.out.print("Ingrese el número "+(i+1)+": ");
             Vector1[i]=op.nextInt();
         }
         int numeromenor=Vector1[0],posición=0;
-        for (int i=1;i<10;i++){
-            if (numeromenor>Vector1[i]){
+        for (int i=1;i<10;i++)
+        {
+            if (numeromenor>Vector1[i])
+            {
                 numeromenor=Vector1[i];
-                posición=i;
+                posición=i+1;
             }
         }
         System.out.println("En el array"+Arrays.toString(Vector1)+"\nel número menor esta en la posición:"+posición);
