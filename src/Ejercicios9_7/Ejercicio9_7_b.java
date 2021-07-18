@@ -11,13 +11,17 @@ public class Ejercicio9_7_b {
         op=new Scanner(System.in);
         System.out.println();
         int Vector2[]= new int[10];
-        for (int i=0;i<10;i++){
+        for (int i=0;i<10;i++)
+        {
+            System.out.print("Ingrese el número "+(i+1)+": ");
             Vector2[i]=op.nextInt();
         }
         System.out.println(Arrays.toString(Vector2));
         int numeromayor=Vector2[0],posición=0;
-        for (int i=1;i<10;i++){
-            if (numeromayor<Vector2[i]){
+        for (int i=1;i<10;i++)
+        {
+            if (numeromayor<Vector2[i])
+            {
                 numeromayor=Vector2[i];
                 posición=i;
             }
