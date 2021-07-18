@@ -25,7 +25,7 @@ public class Ejercicio9_7_d {
             }
         }
         for (int i=0;i<10;i++){
-            if (numimparmenor>Vector1[i]){
+            if (numimparmenor>Vector1[i] & Vector1[i]%2!=0){
                 numimparmenor=Vector1[i];
                 posicion=i;
             }
