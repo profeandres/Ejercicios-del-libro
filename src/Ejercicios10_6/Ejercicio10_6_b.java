@@ -1,7 +1,5 @@
 package Ejercicios10_6;
-
 import java.util.Arrays;
-
 /*
 Construir un programa Java que llene una matriz de 3 filas por 6
 columnas (3x6) y que calcule la suma de cada fila de datos de la matriz
