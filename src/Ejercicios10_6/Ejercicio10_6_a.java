@@ -17,6 +17,7 @@ public class Ejercicio10_6_a {
                 num++;
             }
         }
+        System.out.println("rudy estuvo aquí")
         int sum=0;
         for (int i=0;i<5;i++){
             for (int j=0;j<3;j++){
